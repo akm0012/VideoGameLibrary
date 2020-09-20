@@ -1,0 +1,16 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VideoGameLibrary", "VideoGameLibrary\VideoGameLibrary.csproj", "{BB50CA81-25B7-4286-8548-BBF14C7DB9D8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BB50CA81-25B7-4286-8548-BBF14C7DB9D8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BB50CA81-25B7-4286-8548-BBF14C7DB9D8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BB50CA81-25B7-4286-8548-BBF14C7DB9D8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BB50CA81-25B7-4286-8548-BBF14C7DB9D8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
