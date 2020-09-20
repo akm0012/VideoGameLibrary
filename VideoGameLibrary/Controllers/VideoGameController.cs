@@ -4,6 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
+using VideoGameLibrary.Dto;
 using VideoGameLibrary.Entities;
 
 namespace VideoGameLibrary.Controllers
@@ -175,7 +176,12 @@ namespace VideoGameLibrary.Controllers
         public async Task<ActionResult<IEnumerable<VideoGame>>> Get()
         {
             var ids = GameList.Select(videoGame => videoGame.Id).ToList();
-            return Ok(ids);
+            var gameIds = new IdListDto()
+            {
+                gameIds = ids
+            };
+            
+            return Ok(gameIds);
         }
         
         [HttpGet("{id}")]
